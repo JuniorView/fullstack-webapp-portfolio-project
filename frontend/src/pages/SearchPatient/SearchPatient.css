@@ -1,0 +1,19 @@
+.searchpatient-container {
+  max-width: 70vw;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.searchpatient-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* If the screen with resolution larger than 800 pixels,set the width to 500 pixels*/
+@media screen and (min-width: 800px) {
+  .searchpatient-container {
+    width: 500px;
+  }
+}

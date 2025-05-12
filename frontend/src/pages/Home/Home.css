@@ -1,0 +1,57 @@
+.home-container {
+  max-width: 80vw;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* flex:1 is same as  flex-grow: 1;  flex-shrink: 1; flex-basis: 0%;  */
+.feature {
+  display: flex;
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feature:last-child {
+  margin-right: 0;
+}
+
+.feature h3 {
+  margin-top: 0;
+}
+
+.feature p {
+  margin-bottom: 15px;
+}
+
+.feature a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 auto; /* Center the element horizontally */
+  margin-top: auto; /* Align the <a> element to the bottom */
+  width: auto;
+}
+
+.feature a:hover {
+  background-color: #0056b3;
+}
+
+/* If the screen with resolution larger than 1024 pixels,set the width to 800 pixels*/
+@media screen and (min-width: 1024px) {
+  .home-container {
+    width: 800px;
+  }
+}

@@ -1,0 +1,12 @@
+.about-container {
+  width: 90vw;
+  margin: auto;
+  padding: 20px;
+}
+
+/* If the screen with resolution larger than 1024 pixels,set the width to 800 pixels*/
+@media screen and (min-width: 1024px) {
+  .about-container {
+    width: 800px;
+  }
+}
