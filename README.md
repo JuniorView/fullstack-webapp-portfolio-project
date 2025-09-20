@@ -44,8 +44,9 @@ cd ../backend
 npm install
 
 # Start backend
-npm run dev
+npm start
 
 # Start frontend
 cd ../frontend
-npm start
+npm run dev
+
